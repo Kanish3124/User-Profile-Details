@@ -1,4 +1,4 @@
-# Web Application for Form Submission and Profile Display
+# Web Application for User Profile Details
 
 This project is a simple web application built using Node.js, Express.js, and EJS. It allows users to fill out a form, upload a profile image, and view their submitted details on a profile page.
 
@@ -61,12 +61,3 @@ Before running this project, make sure you have the following installed:
 - [Multer](https://www.npmjs.com/package/multer) - Middleware for handling file uploads
 - [EJS](https://www.npmjs.com/package/ejs) - Template engine
 
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Multer Documentation](https://github.com/expressjs/multer)
-- [EJS Documentation](https://ejs.co/)
