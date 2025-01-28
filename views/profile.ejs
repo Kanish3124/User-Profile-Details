@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Profile Page</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>User Profile</h1>
+      <div class="profile">
+        <img src="<%= profileImagePath %>" alt="Profile Image" class="profile-image">
+        <h2 class="username"><%= username %></h2>
+        <p><strong>Email:</strong> <span class="profile-info"><%= mail %></span></p>
+        <p><strong>Department:</strong> <span class="profile-info"><%= department %></span></p>
+        <p><strong>Projects:</strong> 
+          <a href="<%= projectLinks %>" target="_blank" class="project-link">"Click to view projects"</a>
+        </p>
+        <p><strong>Description:</strong> <span class="profile-info"><%= description %></span></p>
+      </div>
+      <a href="/" class="go-back">Go Back</a>
+    </div>
+  </body>
+</html>
